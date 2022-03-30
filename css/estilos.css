@@ -1,0 +1,160 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background: #fff8f0;
+}
+
+.name{
+
+    transform: skewY(-5deg);
+    width: 100%;
+    height: 200px;
+    background: #ffc544;
+}
+
+.name .content{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 30%;  
+
+}
+
+.name .content .p1{
+    color: #fff8f0;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    transform: skewY(5deg);
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+
+}
+
+.name .content .p2{
+    color: #fff8f0;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    transform: skewY(5deg);
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+.name .content .p3{
+    color: #fff8f0;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    transform: skewY(5deg);
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.name .img{
+    position: absolute;
+    top: 28%;
+    right: 10%;
+    width: 88.5px;
+    height: 118px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+.name .img img{
+    width: 88.5px;
+    height: 118px;
+}
+.info{
+    width: 90%;
+    height: auto;;
+    background: #ffc544;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.info .tituloseccion{
+    color: #fff8f0;
+    font-family: 'Baloo Tamma 2',sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: auto;
+    border-bottom: 2px #fff8f0 dashed;
+}
+
+.info .Firma{
+    color: #fff8f0;
+    font-family: 'Baloo Tamma 2',sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: auto;
+    color: #392f5a;
+    border-bottom: 2px #392f5a solid;
+}
+
+.info .tituloinfo{
+    color: #fff8f0;
+    font-family: 'Baloo Tamma 2',sans-serif;
+    font-weight: bolder; 
+    font-size:  large;
+    display:inline;
+    margin-right: 20px;
+}
+
+.info .infoinfo{
+    color: #392f5a;
+    font-family: 'Baloo Tamma 2',sans-serif;
+    font-weight: normal; 
+    font-size:  large;
+    display: inline;
+}
+.info .infoinfoparra{
+    color: #392f5a;
+    font-family: 'Baloo Tamma 2',sans-serif;
+    font-weight: normal; 
+    font-size:  large;
+    text-align: justify;
+}
+
+@media screen and (max-width:500px){
+    
+    .name .content{
+        left: 10%;  
+    
+    }
+    .name{
+        width: 100%;
+        height: 200px;
+       
+    }
+
+    .name .img{
+        top: 15%;
+        right: 3%;
+        width: 88.5px;
+        height: 118px;
+        
+    }
+    .name .img img{
+        width: 88.5px;
+        height: 118px;
+    }
+
+    .name .content .p1{
+        font-size: 0px; 
+    }
+    
+    .name .content .p2{
+        font-size: 25px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .name .content .p3{
+        font-size: 13px;text-align: left;
+    }
+
+}
